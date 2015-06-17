@@ -1,0 +1,101 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+	
+*{
+	border: 1px solid red;
+	font-family: 'Lato', sans-serif;
+	}
+
+hr{
+	border:2px;
+	height:4px;
+	background: #bcbbbb;
+	}
+
+h1{
+	text-transform: uppercase;
+	text-align: right;
+	}
+	
+h4{
+	text-transform: uppercase;
+	text-align: right;
+	}
+	
+.grid{
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 100%;
+	}
+	
+.row{
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	}
+	
+.col-1{
+	width: 8.33%;
+	border-style: solid;
+	}
+
+.col-2{
+	width: 16.66%;
+	border-style: solid;
+	padding: 10px;
+	}
+
+.col-3{
+	width: 25%;
+	border-style: solid;
+	}
+
+.col-4{
+	width: 33.33%;
+	border-style: solid;
+	}
+	
+.col-5{
+	width: 41.66%;
+	border-style: solid;
+	}
+
+.col-6{
+	width: 50%;
+	border-style: solid;
+	}
+
+.col-7{
+	width: 58.33%;
+	border-style: solid;
+	}
+
+.col-8{
+	width: 66.66%;
+	border-style: solid;
+	}
+	
+.col-9{
+	width: 75%;
+	border-style: solid;
+	}
+
+.col-10{
+	width: 83.33%;
+	border-style: solid;
+	}
+
+.col-11{
+	width: 91.66%;
+	border-style: solid;
+	}
+
+.col-12{
+	width: 100%;
+	border-style: solid;
+	}
