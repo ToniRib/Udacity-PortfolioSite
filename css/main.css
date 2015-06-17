@@ -6,7 +6,7 @@
 	}
 	
 *{
-	border: 1px solid red;
+	!border: 1px solid red;
 	font-family: 'Lato', sans-serif;
 	}
 
@@ -19,83 +19,125 @@ hr{
 h1{
 	text-transform: uppercase;
 	text-align: right;
+	font-size: 40px;
+	color: #747704;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+	
+h2{
+	text-align: left;
+	font-size: 30px;
+	color: #bcbbbb;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	}
+
+h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	color: #747704;
+	margin-bottom: 0px;
+	margin-top: 5px;
 	}
 	
 h4{
 	text-transform: uppercase;
 	text-align: right;
+	color: #747704;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	}
+
+a{
+	text-align: center;
+	color: #747704;
+	font-size: 15px;
+	margin-top: 2px;
+	text-decoration: none;
+	display: block;
+}
+
+.img-display{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.img-display-left{
+	display: block;
+	float: left;
+}
+
+.img-display-right{
+	display: block;
+	float: right;
+}
 	
 .grid{
 	margin: 0 auto;
-	max-width: 1000px;
+	max-width: 905px;
 	width: 100%;
 	}
 	
 .row{
 	width: 100%;
-	margin-bottom: 20px;
 	display: flex;
 	flex-wrap: wrap;
+	}
+
+.row-img{
+	width: 100%;
+	display: flex;
+	margin-top: 25px;
 	}
 	
 .col-1{
 	width: 8.33%;
-	border-style: solid;
 	}
 
 .col-2{
 	width: 16.66%;
-	border-style: solid;
-	padding: 10px;
 	}
 
 .col-3{
 	width: 25%;
-	border-style: solid;
 	}
 
 .col-4{
 	width: 33.33%;
-	border-style: solid;
 	}
 	
 .col-5{
 	width: 41.66%;
-	border-style: solid;
 	}
 
 .col-6{
 	width: 50%;
-	border-style: solid;
 	}
 
 .col-7{
 	width: 58.33%;
-	border-style: solid;
 	}
 
 .col-8{
 	width: 66.66%;
-	border-style: solid;
 	}
 	
 .col-9{
 	width: 75%;
-	border-style: solid;
 	}
 
 .col-10{
 	width: 83.33%;
-	border-style: solid;
 	}
 
 .col-11{
 	width: 91.66%;
-	border-style: solid;
 	}
 
 .col-12{
 	width: 100%;
-	border-style: solid;
+	color: #bcbbbb;
 	}
