@@ -12,6 +12,10 @@ hr {
 	height: 3px;
 }
 
+a {
+	color: #ff4500;
+}
+
 .con-max-width {
 	max-width: 905px;
 }
