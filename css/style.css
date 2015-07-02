@@ -1,7 +1,9 @@
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Muli', sans-serif;
 	color: #747704;
 	font-weight: 300;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 hr {
@@ -15,17 +17,26 @@ hr {
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #00cd00;
 }
 
-.text-thin {
-	font-weight: 100;
+.text-hot {
+	color: #ee4000;
+}
+
+.text-fat {
+	font-weight: 400;
 }
 
 .title-super {
 	font-size: 60px;
+	margin-top: 20px;
 }
 
 .title-logo {
 	margin-top: 20px;
+}
+
+.title-color {
+	color: #009acd;
 }
