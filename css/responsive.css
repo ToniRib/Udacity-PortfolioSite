@@ -1,4 +1,4 @@
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 407px) {
 	h1 {
 		font-size: 30px;
 		margin-top: 10px;
@@ -20,9 +20,12 @@
 		width: 50%;
 		float: left;
 	}
+	.img-large {
+		display: none;
+	}
 }
 
-@media screen and (min-width: 390px) and (max-width: 768px) {
+@media screen and (min-width: 407px) and (max-width: 768px) {
 	.img-1 {
 		width: 100%;
 	}
