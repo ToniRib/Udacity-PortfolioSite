@@ -7,13 +7,11 @@ body {
 	font: normal 300 1em "Muli", sans-serif;
 }
 
-
 hr {
 	background: #bcbbbb;
 	margin: 1px 0 25px 0;
 	height: 3px;
 }
-
 
 a {
 	color: #ff4500;
@@ -28,67 +26,55 @@ a {
 	max-width: 905px;
 }
 
-
 .text-muted {
 	color: #00cd00;
 }
-
 
 .text-hot {
 	color: #ee4000;
 }
 
-
 .text-fat {
 	font-weight: 400;
 }
-
 
 .title-super {
 	font-size: 60px;
 	margin: 20px 0 0 0;
 }
 
-
 .title-logo {
 	margin: 20px 0 0 0;
 }
 
-
 .title-color {
 	color: #009acd;
 }
-
 
 .img-portfolio {
 	margin: 10px auto;
 	max-height: 190px;
 }
 
-
 .title {
 	width: 50%;
 	float: right;
 }
-
 
 .logo {
 	width: 50%;
 	float: left;
 }
 
-
 .modal-body {
 	font-size: 1.5em;
 	color: #009acd;
 }
 
-
 .modal-title {
 	font-size: 2em;
 	color: #009acd;
 }
-
 
 /*
  * Screen width less than 407px
@@ -101,53 +87,16 @@ a {
 		margin: 10px 0 10px 0;
 	}
 
-
 	h2 {
 		font-size: 24px;
 	}
-
 
 	h3 {
 		font-size: 18px;
 	}
 
-
 	h4 {
 		font-size: 14px;
-	}
-
-}
-
-/*
- * Screen width between 408px and 768px
- */
-
-@media screen and (min-width: 408px) and (max-width: 768px) {
-
-	.img-1,
-	.img-2 {
-		width: 100%;
-	}
-
-}
-
-/*
- * Screen width between 769px and 992px
- */
-
- /* ! NEED TO FIX THIS MEDIA QUERY! */
-
-@media screen and (min-width: 769px) and (max-width: 992px) {
-
-	.img-1 {
-		width: 50%;
-		float: left;
-	}
-
-
-	.img-2 {
-		width: 50%;
-		float: right;
 	}
 
 }
