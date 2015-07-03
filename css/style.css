@@ -5,8 +5,6 @@
 body {
 	color: #747704;
 	font: normal 300 1em "Muli", sans-serif;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 
@@ -48,12 +46,12 @@ a {
 
 .title-super {
 	font-size: 60px;
-	margin: 20px 0px 0px 0px;
+	margin: 20px 0 0 0;
 }
 
 
 .title-logo {
-	margin: 20px 0px 0px 0px;
+	margin: 20px 0 0 0;
 }
 
 
@@ -63,7 +61,7 @@ a {
 
 
 .img-portfolio {
-	margin: 10px auto 10px auto;
+	margin: 10px auto;
 	max-height: 190px;
 }
 
@@ -79,12 +77,25 @@ a {
 	float: left;
 }
 
+
+.modal-body {
+	font-size: 1.5em;
+	color: #009acd;
+}
+
+
+.modal-title {
+	font-size: 2em;
+	color: #009acd;
+}
+
+
 /*
  * Screen width less than 407px
  */
 
 @media screen and (max-width: 407px) {
-	
+
 	h1 {
 		font-size: 30px;
 		margin: 10px 0 10px 0;
@@ -105,11 +116,6 @@ a {
 		font-size: 14px;
 	}
 
-
-	.img-large {
-		display: none;
-	}
-
 }
 
 /*
@@ -117,7 +123,7 @@ a {
  */
 
 @media screen and (min-width: 408px) and (max-width: 768px) {
-	
+
 	.img-1,
 	.img-2 {
 		width: 100%;
@@ -129,8 +135,10 @@ a {
  * Screen width between 769px and 992px
  */
 
+ /* ! NEED TO FIX THIS MEDIA QUERY! */
+
 @media screen and (min-width: 769px) and (max-width: 992px) {
-	
+
 	.img-1 {
 		width: 50%;
 		float: left;
@@ -141,5 +149,5 @@ a {
 		width: 50%;
 		float: right;
 	}
-	
+
 }
